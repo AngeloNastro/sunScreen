@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap" rel="stylesheet");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#fp-nav{
+    margin-top: -208.5px !important;
+}
+
+.picture{
+    height: 25%;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -85%);
+}
+
+.picture.small{
+    height: 15%;
+}
+
+.picture.big{
+    height: 35%;
+}
+
+.picture.left{
+    left: 15% !important;
+    transform: translate(-15%, -80%) !important;
+}
+
+.picture.right{
+    left: 90% !important;
+    transform: translate(-90%, -80%) !important;  
+}
+
+.quote{
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.quote.italic{
+    font-style: italic !important;
+}
+
+.quote.big{
+    font-size: 3em !important;
+}
+
+.quote.small{
+    font-size: 1em !important;
+}
+
+.quote.bold{
+    font-weight: 900 !important;
+}
+
+.quote.thin{
+    font-weight: 100 !important;
+}
+
+.quote.bottom{
+    top: 65% !important;
+    transform: translate(-50%, -65%) !important;
+}
+
+.quote.top{
+    top: 25% !important;
+    transform: translate(-50%, -25%) !important;    
+}
+
+.quote.end{
+    top: 85% !important;
+    transform: translate(-50%, -85%) !important;    
+}
