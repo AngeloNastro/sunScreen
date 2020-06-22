@@ -44,6 +44,7 @@ new fullpage("#fullpage", {
   ],
   onLeave: (origin, destination, direction) => {
     const section = destination.item;
+
     const text = section.querySelectorAll(".quote");
     const image = section.querySelectorAll(".picture");
 
