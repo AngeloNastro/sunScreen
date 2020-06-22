@@ -12,8 +12,10 @@
 </head>
 
 <body>
-    <audio id="player" src="./sunScreen.mp3" autoplay loop></audio>
-
+    <iframe src="./silence.mp3" type="audio/mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+    <audio autoplay>
+    <source src="./sunScreen.mp3" type="audio/mp3">
+    </audio>
     <div id="fullpage">
         <section class="section s1">
             <div class="quote big">Wear sunscreen</div>
